@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,235,90);
+background: linear-gradient(90deg, rgba(255,235,90,1) 40%, rgba(223,58,219,1) 100%);
+}
+
+#divBienvenida{
+    background-color: rgba(236, 243, 234, 0.884);
+    border: 1px solid green;
+    height: 50vh;
+    width: 80vh;
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3%;
+}
+#divBienvenida h1{
+    color: rgba(223,58,219,1);
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    ;
+}
+#divBienvenida h3{
+    color: rgba(223,58,219,1);
+    /* text-shadow: 1px 1px 1px black; */
+    font-family: serif
+}
+#botonBienvenida{
+    padding: 1vh 12vh 1vh 12vh;    
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: rgba(255,235,90,1);
+    text-transform: uppercase;
+
+
+}
+#botonBienvenida:hover{
+    background-color: rgba(223,58,219,1);
+    color: rgba(255,235,90,1);
+    text-transform: uppercase;
+}
+#inputBienvenida{
+    padding: 1vh 16vh 1vh 16vh;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    box-shadow: 7px 3px 15px black;
+}
+#errorMensaje{
+    color: red;
+}
+#imgBienvenida{
+    height: 50px;
+    color: #2BFD3C;
+
+}
